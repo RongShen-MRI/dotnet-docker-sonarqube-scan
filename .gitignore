@@ -1,0 +1,9 @@
+# SonarQube Scanner Configuration Script
+# This script defines configuration parameters for running SonarQube analysis on a .NET project using a Dockerized SonarQube Scanner.
+scan-config.ps1
+
+# Ignore all files in the output directory (build artifacts, logs, etc.)
+output/
+
+# Ignore the local credentials file that may contain sensitive information
+sonarqube*
