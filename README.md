@@ -1,4 +1,4 @@
-# SonarQube Scanner - Scanning Guide
+# SonarQube Scanner - Scanning Guide 🚀
 
 ## Prerequisites
 
