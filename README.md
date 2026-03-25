@@ -27,7 +27,7 @@
 | `generic` | .NET Framework, mixed projects, source-only | Analyzes source code directly (no build required) |
 | `dotnet` | .NET 6 / 7 / 8 / 9 projects | Runs `begin` → `dotnet build` → `end` for deep analysis with SDK auto-detection |
 
-> **Your project (`abell.root`) is .NET Framework**, so use `generic` mode (set by default).
+> **If your project is .NET Framework**, so use `generic` mode (set by default).
 
 ---
 
