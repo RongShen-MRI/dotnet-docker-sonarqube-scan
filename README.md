@@ -16,7 +16,7 @@
 | `Dockerfile` | Builds the scanner image (.NET 6/7/8/9 SDKs + Java + SonarScanner CLI) |
 | `scan-config.ps1` | **Configuration file** - change workspace path, scan mode, and project settings |
 | `run-scan.ps1` | Runs the full scan pipeline |
-| `SCANNING-GUIDE.md` | This guide |
+| `README.md` | This guide |
 
 ---
 
