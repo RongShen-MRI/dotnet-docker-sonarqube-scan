@@ -184,7 +184,7 @@ dotnet sonarscanner begin \
     /d:sonar.host.url="$SONAR_HOST_URL" \
     /d:sonar.token="$SONAR_TOKEN" \
     /d:sonar.cs.opencover.reportsPaths="/workspace/**/coverage.opencover.xml" \
-    /d:sonar.exclusions="**/bin/**,**/obj/**,**/node_modules/**,**/wwwroot/lib/**"
+    /d:sonar.exclusions="$SONAR_EXCLUSIONS"
 
 echo ''
 echo '=========================================='
@@ -220,7 +220,7 @@ sonar-scanner \
     -Dsonar.host.url="$SONAR_HOST_URL" \
     -Dsonar.token="$SONAR_TOKEN" \
     -Dsonar.sourceEncoding="UTF-8" \
-    -Dsonar.exclusions="**/bin/**,**/obj/**,**/node_modules/**,**/wwwroot/lib/**,**/packages/**,**/*.dll,**/*.exe,**/*.pdb"
+    -Dsonar.exclusions="$SONAR_EXCLUSIONS"
 
 echo ''
 echo '=========================================='

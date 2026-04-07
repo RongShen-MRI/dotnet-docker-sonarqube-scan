@@ -7,3 +7,6 @@ output/
 
 # Ignore the local credentials file that may contain sensitive information
 sonarqube*
+
+# Ignore the operation folder
+bin/*

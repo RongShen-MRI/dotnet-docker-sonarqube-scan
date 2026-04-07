@@ -36,3 +36,6 @@ $CONTAINER_NAME = "sonarqube-scanner"
 
 # -- SonarQube Server container name --
 $SONAR_SERVER_CONTAINER = "sonarqube"
+
+# -- SonarQube Exclusions (glob patterns, comma-separated) --
+$SONAR_EXCLUSIONS = "**/bin/**,**/obj/**,**/node_modules/**,**/wwwroot/lib/**,**/packages/**,**/*.dll,**/*.exe,**/*.pdb"
